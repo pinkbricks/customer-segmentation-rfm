@@ -1,0 +1,24 @@
+name: rfm-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # ── Data ──────────────────────────────────────────────────────
+  - pandas=2.2
+  - numpy=1.26
+  - openpyxl=3.1          # reading the UCI .xlsx file
+  - scikit-learn=1.4
+  # ── Visualisation ─────────────────────────────────────────────
+  - matplotlib=3.8
+  - seaborn=0.13
+  - plotly=5.20
+  # ── App ───────────────────────────────────────────────────────
+  - streamlit=1.33
+  # ── Notebooks ─────────────────────────────────────────────────
+  - jupyterlab=4.1
+  - ipykernel=6.29
+  # ── Dev ───────────────────────────────────────────────────────
+  - pip:
+    - nbformat==5.10.4     # notebook validation

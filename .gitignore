@@ -1,0 +1,42 @@
+# Examples
+example.ipynb
+
+# ── Environment ───────────────────────────────────────────────
+.env
+*.env
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Conda / venv ──────────────────────────────────────────────
+env/
+venv/
+.conda/
+*.egg-info/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Data ──────────────────────────────────────────────────────
+# Raw data should be downloaded locally, not committed
+data/raw/
+# Cleaned and processed data — large files, not for version control
+data/cleaned/
+data/scored/
+data/segmented/
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
