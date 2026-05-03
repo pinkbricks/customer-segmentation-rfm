@@ -8,7 +8,7 @@
 ## Team
 
 | Member | Role |
-|---|---|---|
+|---|---|
 | Godwin | Data cleaning |
 | Celine | RFM scoring |
 | Ibrahim | Customer segmentation |
