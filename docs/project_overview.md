@@ -73,7 +73,6 @@ Sunday is our kickoff. Monday to Friday each member owns one phase. Work is sequ
 | **Tuesday** | Godwin | Load the UCI Online Retail II dataset, handle all cleaning tasks, export `clean_retail_data.csv`. |
 | **Wednesday** | Celine | Compute R / F / M metrics and apply quintile scoring, export `scored.csv`. |
 | **Thursday** | Elvis | Aggregate rfm strings and give each a segment name |
-| **Friday** | Ibrahim| Apply rule-based labels and/or K-means clustering, label every customer, export `segmented_customers.csv`. |
 | **Friday** | Ibrahim | Look at the why it matters section and come up with visualizations that support the rfm analysis. Based on this dataset, what would you recommend to the business? |
 | **Saturday** | Mohammed | Present the visualizations and recommendations in the app |
 
