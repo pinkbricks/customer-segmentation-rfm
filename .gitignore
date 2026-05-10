@@ -22,6 +22,8 @@ venv/
 # ── Data ──────────────────────────────────────────────────────
 # Raw data should be downloaded locally, not committed
 data/raw/
+*.csv
+*.xlsx
 # Cleaned and processed data — large files, not for version control
 data/cleaned/
 data/scored/
